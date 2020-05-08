@@ -1,0 +1,56 @@
+/* Big tablet to 1200px */
+@media only screen and (max-width: 1200px) {
+}
+
+/* Small tablet to big tablet from 768x to 1023px */
+@media only screen and (max-width: 1023px) {
+}
+
+/* Small phones to small tablets */
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 15px;
+  }
+  section {
+    height: 150vh;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+}
+
+/* Small phones from 0 to 480px */
+@media only screen and (max-width: 480px) {
+  .fa-facebook,
+  .fa-instagram,
+  .fa-youtube,
+  .fa-twitter,
+  .fa-html5,
+  .fa-css3-alt,
+  .fa-js-square,
+  .fa-react,
+  .fa-cuttlefish {
+    font-size: 20px;
+  }
+}
+
+/* For iphone 5/SE */
+@media only screen and (max-width: 320px) {
+  p {
+    font-size: 10px;
+  }
+  .fa-facebook,
+  .fa-instagram,
+  .fa-youtube,
+  .fa-twitter,
+  .fa-html5,
+  .fa-css3-alt,
+  .fa-js-square,
+  .fa-react,
+  .fa-cuttlefish {
+    font-size: 15px;
+  }
+}

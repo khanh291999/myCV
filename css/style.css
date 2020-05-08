@@ -1,0 +1,57 @@
+.cv-left {
+  background-color: #faf8ff;
+}
+body {
+  position: relative;
+}
+ul.nav-pills {
+  top: 20px;
+  position: fixed;
+}
+div.col-8 div {
+  height: 500px;
+}
+section {
+  height: 100vh;
+}
+html {
+  scroll-behavior: smooth;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+}
+
+a > i {
+  font-size: 30px;
+  padding: 2rem;
+  color: #4458dc;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+p {
+  font-size: 30px;
+}
+
+.font-roboto {
+  font-family: "Roboto", cursive;
+}
+
+button {
+  background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+  border: none;
+  font: normal 500 16px/130px var(--roboto);
+  text-transform: uppercase;
+}
+.btn {
+  margin-top: 20px;
+  padding: 10px 30px 10px 30px;
+}
+
+.a-button {
+  color: white;
+}
